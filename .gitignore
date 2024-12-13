@@ -1,0 +1,41 @@
+# Ignore node_modules for a Node.js project
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled files
+*.class
+*.pyc
+*.o
+*.obj
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore build output directories
+dist/
+build/
+out/
+
+# Ignore environment variables files
+.env
+/.vs/ApiIntegrationExample/FileContentIndex
+/.vs/ApiIntegrationExample/v17
+/.vs/ProjectEvaluation
+/.vs/ApiIntegrationExample/DesignTimeBuild/.dtbcache.v2
+/src/bin/Debug/net9.0
+/src/obj
